@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
@@ -9,11 +8,11 @@ class App extends Component {
     return <div className="App">
         <section>
           <div className="row">
-            <div class="circle">{time}'</div>
+            <div className="circle">{time}'</div>
           </div>
 
-          <div class="circle">{time}'</div>
-          <div class="circle">{time}'</div>
+          <div className="circle">{time}'</div>
+          <div className="circle">{time}'</div>
           <div className="row">
             <div className="text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
