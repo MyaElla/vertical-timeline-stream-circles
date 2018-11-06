@@ -5,7 +5,7 @@ export default class Comments extends Component {
   render() {
     return (
       
-      <li className="RowComment">
+      <li value="1">
         {this.props.update.body}
       </li>
     );
