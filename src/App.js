@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import "./App.css";
-import Circles from "./components/Circles/Circles";
-import Comments from "./components/Comments/Comments";
+import Circles from "./components/Circles";
+import Comments from "./components/Comments";
 class App extends Component {
+  constr
   render() {
     return (
       <div className="App">

@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "../../App.css";
 
 export default class Circles extends Component {
   render() {
