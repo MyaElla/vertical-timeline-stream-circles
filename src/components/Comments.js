@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import Circles from "./Circles";
 
 export default class Comments extends Component {
   render() {
     return (
-      
-      <li value="1">
+      <li>
+        <span className="circle">{this.props.update.timestamp}</span>
+        <span className="line" />
         {this.props.update.body}
       </li>
     );

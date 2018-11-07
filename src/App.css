@@ -63,13 +63,6 @@ ul {
   display: none;
 } */
 
-
-/* . RowComment {
-  fill: rgb(12, 11, 11);
-  font-size: 3.8rem;
-  font-family: sans-serif;
-  
-} */
 li {
   position: relative;
   padding: 1.5rem;
@@ -78,7 +71,7 @@ li {
   
 }
 
-li::before {
+/* li::before {
   content: ' ';
   display: block;
   position: absolute;
@@ -106,4 +99,38 @@ li::after {
 li:first-of-type::before {
   height: calc(100% - 1rem);
   top: 1rem;
+} */
+
+li .line {
+  display: block;
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  left: 2.7rem;
+  top: 0;
+  background-color: #000;
 }
+
+li .circle {
+      display: block;
+      position: absolute;
+      width: 3rem;
+      height: 3rem;
+      left: calc(2rem - .75rem);
+      top: 1rem;
+      border-radius: 100%;
+      background-color: #fff;
+      border: 1px solid #000;
+      z-index: 2;
+      text-align: center;
+      line-height: 3rem;
+}
+
+li:first-of-type .line {
+  height: calc(100% - 1rem);
+  top: 1rem;
+}
+
+/* li:last-of-type .line {
+  height: calc(100% - (1rem + 10px));
+} */
