@@ -1,4 +1,4 @@
-To run this project clone the repo then cd into the project and run npm install to get all modules. Now you should be all set up to run the project.
+To run this project clone the repo then 'cd ' into the project and run 'npm install' to get all modules. Now you should be all set up to run the project.
 
 ## Available Scripts
 
