@@ -20,3 +20,11 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+## TO DO
+
+### - try 'list-style-image' with url to circles SVG
+### - Add tests for the map
+### - move data objects outside of state
+### - line less overflow
