@@ -6,14 +6,15 @@ export default class CommentSection extends Component {
     let rowComment;
     if (this.props.updates) {
       rowComment = this.props.updates.map(update => {
-        //   console.log(update)
         return <Comments key={update.id} update={update} />;
       });
     }
     return (
      
         <section>
+        <div id="intro">
             <h1>Live commentary</h1>
+        </div>
           <ul>{rowComment}</ul>
         </section>
 
