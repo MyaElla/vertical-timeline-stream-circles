@@ -9,8 +9,7 @@ class App extends Component {
       updates: [
         {
           id: 0,
-          body:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
           timestamp: "12"
         },
         {

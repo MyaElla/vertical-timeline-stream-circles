@@ -10,14 +10,12 @@ export default class CommentSection extends Component {
       });
     }
     return (
-     
-        <section>
+      <section>
         <div id="intro">
-            <h1>Live commentary</h1>
+          <h1>Live commentary</h1>
         </div>
-          <ul>{rowComment}</ul>
-        </section>
-
+        <ul>{rowComment}</ul>
+      </section>
     );
   }
 }

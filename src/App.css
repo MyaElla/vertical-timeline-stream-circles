@@ -22,26 +22,29 @@ h1 {
 }
 
 ul {
-  list-style-type: none;
+  list-style-image: url("./components/air.svg");
+  padding-left: 7rem;
  }
 
 li {
   position: relative;
   padding: 1.5rem;
-  padding-left: 7rem
+  padding-left: 5rem;
   
 }
 
-li .line {
+ li .line {
   display: block;
   position: absolute;
   width: 2px;
-  height: 115%;
-  left: 2.7rem;
-  top: 0;
+  height: 100%;
+  left: -1.5rem;
+  top: 2rem;
   background-color: #000;
+  /* z-index: 1 */
 }
 
+/*
 li .circle {
       display: block;
       position: absolute;
@@ -61,7 +64,7 @@ li .circle {
 li:first-of-type .line {
   height: calc(100% - 1rem);
   top: 1rem;
-}
+} */
 
 /* li:last-of-type .line {
   height: calc(100% - (1rem + 10px));
