@@ -24,7 +24,6 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## TO DO
 
-### - try 'list-style-image' with url to circles SVG
+### - replace 'CheckMark' SVG component with 'Circle' and pass in 'timestamp' value
 ### - Add tests for the map
 ### - move data objects outside of state
-### - line less overflow
