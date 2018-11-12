@@ -24,7 +24,8 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## TO DO
 
-### - try 'list-style-image' with url to circles SVG
+### - _try 'list-style-image' with url to circles SVG_
+### - use SVG as child component in <li> item build so can pass 'timestamp' as prop
 ### - Add tests for the map
 ### - move data objects outside of state
 ### - line less overflow
