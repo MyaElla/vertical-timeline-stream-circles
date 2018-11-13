@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
+import PostList from "./components/PostList";
 import CommentSection from "./components/CommentSection";
 
 class App extends Component {
@@ -9,8 +10,7 @@ class App extends Component {
       updates: [
         {
           id: 0,
-          body:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
           timestamp: "12"
         },
         {
@@ -37,6 +37,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <PostList />
         <CommentSection updates={this.state.updates} />
       </div>
     );
